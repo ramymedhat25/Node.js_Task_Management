@@ -37,28 +37,35 @@ A RESTful API built with Node.js and Express for managing tasks, featuring user 
 npm install
 ```
 
-### API Endpoints
+## API Endpoints
 
-Authentication:
+### Authentication
+
+```bash
 POST /api/auth/register - Register a new user.
 POST /api/auth/login - Login an existing user.
-Tasks (Protected routes, require a valid JWT token in the Authorization header):
+```
+
+## Tasks (Protected routes, require a valid JWT token in the Authorization header):
+```bash
 GET /api/tasks - Get all tasks for the logged-in user.
 POST /api/tasks - Create a new task.
 PUT /api/tasks/:id - Update an existing task.
 DELETE /api/tasks/:id - Delete a task.
-Future Enhancements
-User profile management
-Task filtering and sorting
-Due dates for tasks
-Notifications (in-app or email)
-More comprehensive testing
-Contributing
+```
+
+### Future Enhancements
+
+* User profile management
+* Task filtering and sorting
+* Due dates for tasks
+* Notifications (in-app or email)
+* More comprehensive testing
+
+### Contributing
+
 Contributions are welcome! Please feel free to submit pull requests or open issues.
 
-License
+### License
+
 This project is licensed under the ISC License.
-
-```
-
-```
