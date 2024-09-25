@@ -35,9 +35,10 @@ A RESTful API built with Node.js and Express for managing tasks, featuring user 
 
 ```bash
 npm install
-
+```
 
 ### API Endpoints
+
 Authentication:
 POST /api/auth/register - Register a new user.
 POST /api/auth/login - Login an existing user.
@@ -57,4 +58,7 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 License
 This project is licensed under the ISC License.
+
+```
+
 ```
