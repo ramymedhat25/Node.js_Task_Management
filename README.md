@@ -36,7 +36,8 @@ A RESTful API built with Node.js and Express for managing tasks, featuring user 
 ```bash
 npm install
 
-API Endpoints
+
+### API Endpoints
 Authentication:
 POST /api/auth/register - Register a new user.
 POST /api/auth/login - Login an existing user.
